@@ -8,7 +8,7 @@ Hasta ahora van 3 scripts:
 
 * modelos - algunos modelos sencillos para entender cuestiones de crecimiento y como se ven afectadas por parametros, al final tiene el modelo que está usando CDMX
 
-* modelo_CDMX - impplementación del modelo de CDMX para COVID19
+* modelo_CDMX - implementación del modelo de CDMX para COVID19
 
 * historias - permite descargar los datos mexicanos por caso, actuales e históricos, y procesarlos para obtener algunas fechas estimadas relacionadas con la historia de cada paciente en la base de datos. El código permite graficar la historia de cualquier paciente en la base de datos:
 
