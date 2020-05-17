@@ -2,7 +2,11 @@
 
 Algunos scripts para generar gráficas y análisis relacionadas con el covid
 
-Hasta ahora van 3 scripts:
+Los scripts se encargan de descargar los datos directos.
+Los datos Mexicanos se encuentran aquí: [https://www.gob.mx/salud/documentos/datos-abiertos-152127](https://www.gob.mx/salud/documentos/datos-abiertos-152127)
+Los datos Internacionales se encuentran aquí: [https://github.com/Laeyoung/COVID-19-API](https://github.com/Laeyoung/COVID-19-API)
+
+Hasta ahora van 4 scripts:
 
 * plots_internacional - permite descargar y graficar datos internacionales. Los datos se descargan desde la API de Johns Hopkins.
 
