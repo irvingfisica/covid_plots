@@ -20,6 +20,8 @@ Hasta ahora van 4 scripts:
 
 * modelo_CDMX - implementación del modelo de CDMX para COVID19 y algunas funciones para ajustar el modelo a datos. El script permite ajustar el mismo modelo a cualquier Zona Metropolitana del país. Además cuenta con la posibilidad de ajustar el modelo a diferentes intervenciones en el tiempo o a intervenciones dadas por una función que depende del tiempo
 
+![Ajuste a los datos de CDMX](/graficas/modelo_cdmx.png)
+
 ![Ajuste a los datos de CDMX](/graficas/ajuste_plot.png)
 
 * historias - permite descargar los datos mexicanos por caso, actuales e históricos, y procesarlos para obtener algunas fechas estimadas relacionadas con la historia de cada paciente en la base de datos. El código permite graficar la historia de cualquier paciente en la base de datos:
