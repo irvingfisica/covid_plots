@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.git.bfg-report/
+datos_federales/*.csv
+datos_procesados/.ipynb_checkpoints/
+datos_federales/*.xlsx
+datos_procesados/*.xlsx

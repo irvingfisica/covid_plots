@@ -8,13 +8,19 @@ Los datos Mexicanos se encuentran aquí: [https://www.gob.mx/salud/documentos/da
 
 Los datos Internacionales se encuentran aquí: [https://github.com/Laeyoung/COVID-19-API](https://github.com/Laeyoung/COVID-19-API)
 
-Hasta ahora van 6 scripts:
+Los datos descargados no se almacenan en este repositorio pues cada archivo pesa cerca de 500 megas. Por ahora están alojados en las´páginas del gobierno federal, si en algún momento dejan de estar alojados ahí y te interesan mándame un mensaje directo en twitter a @moaimx.
+
+Los datos procesados si se almacenan en este repositorio. Estos datos son matrices que contienen los datos a nivel nacional, por estado y por municipio desglozados por fecha.
+
+Hasta ahora van 7 scripts:
 
 * datos_historicos - permite descargar los datos mexicanos por caso, actuales e históricos.
 
 * reporte_diario - permite obtener los datos del reporte diario a partir de los datos históricos que se han reportado hasta la fecha y hacer algunas gráficas básicas, por fecha de reporte y por fecha de sintomas.
 
 ![Gráfica del reporte diario](/graficas/reporte_plot.png)
+
+* proceso_datos - permite procesar los datos para obtener matrices cón los datos por municipio. Los datos que se pueden generar son los casos y las defunciones por fecha de reporte en la conferencia y por fecha de síntomas a la fecha del reporte.
 
 * plots_internacional - permite descargar y graficar datos internacionales. Los datos se descargan desde la API de Johns Hopkins. Permite generar gráficas de casos confirmados, decesos y casos activos como la siguiente para cualquier país o región en la base de datos:
 
